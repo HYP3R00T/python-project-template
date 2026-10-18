@@ -10,19 +10,19 @@ Use clear nouns that describe purpose.
 
 (GOOD)
 
-- `devcontainer-python-template` - repository package name
-- `devcontainer-python-template-utils` - optional helper package
-- `devcontainer-python-template-cli` - optional CLI package
+- `python-project-template` - repository package name
+- `python-project-template-utils` - optional helper package
+- `python-project-template-cli` - optional CLI package
 
 (AVOID)
 
 - `core` - too generic
-- `devcontainer_python_template` - underscores are for import/module names, not distribution names
-- `DevcontainerPythonTemplate` - wrong case
+- `python_project_template` - underscores are for import/module names, not distribution names
+- `PythonProjectTemplate` - wrong case
 
 Note: the Python import name (the `src/` folder) uses underscores as required by Python
-(e.g. `devcontainer_python_template`), but the installable package name in `pyproject.toml`
-uses hyphens (e.g. `devcontainer-python-template`).
+(e.g. `python_project_template`), but the installable package name in `pyproject.toml`
+uses hyphens (e.g. `python-project-template`).
 
 ## Modules (Files)
 

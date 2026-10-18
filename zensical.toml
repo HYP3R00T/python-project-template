@@ -1,8 +1,8 @@
 [project]
-site_name = "devcontainer-python-template"
+site_name = "python-project-template"
 site_description = "Add your description here"
-repo_name = "HYP3R00T/devcontainer-python-template"
-repo_url = "https://github.com/HYP3R00T/devcontainer-python-template"
+repo_name = "HYP3R00T/python-project-template"
+repo_url = "https://github.com/HYP3R00T/python-project-template"
 site_author = "Rajesh Das"
 copyright = "Copyright &copy; 2026 Rajesh Das"
 
